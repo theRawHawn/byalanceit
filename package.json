@@ -19,7 +19,10 @@
   "dependencies": {
     "@tailwindcss/postcss": "^4.2.4",
     "@tailwindcss/vite": "^4.3.0",
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.14.0",
     "@vitejs/plugin-react": "^6.0.2",
+    "autoprefixer": "^10.4.21",
     "dotenv": "^17.2.3",
     "express": "^4.21.2",
     "googleapis": "^171.4.0",
@@ -31,20 +34,16 @@
     "react-helmet-async": "^3.0.0",
     "react-router-dom": "^7.14.2",
     "svgo": "^4.0.1",
-    "vike": "^0.4.259",
-    "vike-react": "^0.6.23",
-    "vike-server": "^1.0.25",
-    "vite-plugin-image-optimizer": "^2.0.3"
-  },
-  "devDependencies": {
-    "@types/express": "^4.17.21",
-    "@types/node": "^22.14.0",
-    "autoprefixer": "^10.4.21",
     "tailwindcss": "^4.1.14",
     "tsx": "^4.21.0",
     "typescript": "~5.8.2",
+    "vike": "^0.4.259",
     "vike-cloudflare": "^0.2.8",
+    "vike-react": "^0.6.23",
+    "vike-server": "^1.0.25",
     "vite": "^8.0.14",
+    "vite-plugin-image-optimizer": "^2.0.3",
     "wrangler": "^4.94.0"
-  }
+  },
+  "devDependencies": {}
 }
