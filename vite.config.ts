@@ -8,7 +8,7 @@ import { ViteImageOptimizer } from 'vite-plugin-image-optimizer';
 
 export default defineConfig((env) => {
   const isBuild = env.command === 'build';
-  const isSSR = !!(env as any).ssrBuild;
+  const isSSR = !!((env as any).ssrBuild || (env as any).isSsrBuild);
   return {
     plugins: [
       react(),
