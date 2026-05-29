@@ -6,8 +6,9 @@ import { defineConfig } from 'vite';
 import { ViteImageOptimizer } from 'vite-plugin-image-optimizer';
 
 
-export default defineConfig(({ command }) => {
-  const isBuild = command === 'build';
+export default defineConfig((env) => {
+  const isBuild = env.command === 'build';
+  const isSSR = !!(env as any).ssrBuild;
   return {
     plugins: [
       react(),
@@ -92,7 +93,7 @@ export default defineConfig(({ command }) => {
     build: {
       rollupOptions: {
         output: {
-          manualChunks(id) {
+          manualChunks: isSSR ? undefined : (id) => {
             if (id.includes('node_modules')) {
               if (
                 id.includes('react') ||
