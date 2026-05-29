@@ -1,0 +1,50 @@
+# Byalance
+
+> Byalance is a virtual accounting and compliance services firm based in Bengaluru, India.
+> We serve startup founders, SMEs, MSMEs, and local traders across Tier 1, 2, and 3 cities in India.
+> Our services are delivered via WhatsApp-first, personal, and affordable communication — starting at ₹1,999/month.
+> We also offer a white-label back-office execution service for home-based Chartered Accountants (CAs) across India.
+
+## Core Pages
+
+- [Home](https://byalance.com/): Overview of services, pricing, and founding member waitlist offer
+- [Services](https://byalance.com/#services): Full list of accounting and compliance services offered
+- [Pricing](https://byalance.com/#pricing): Transparent monthly pricing tiers for individuals and businesses
+- [About](https://byalance.com/#about): About Byalance, its mission, and team
+- [Contact](https://byalance.com/#contact): WhatsApp and email contact, office location in JP Nagar, Bengaluru
+- [Privacy Policy](https://byalance.com/privacy-policy): Compliant with DPDP Act 2023 and IT Act 2000
+- [Data Handling Policy](https://byalance.com/data-handling-policy): How client financial data is stored, processed, and protected
+
+## Services
+
+- [GST Filing & Compliance](https://byalance.com/#gst): Monthly/quarterly GST return filing (GSTR-1, GSTR-3B), GST registration, GST notices
+- [TDS Compliance](https://byalance.com/#tds): TDS deduction, challan payment, quarterly TDS returns (Form 24Q, 26Q)
+- [Bookkeeping](https://byalance.com/#bookkeeping): Monthly ledger management, bank reconciliation, P&L and Balance Sheet preparation
+- [Payroll Processing](https://byalance.com/#payroll): Monthly payroll, salary slips, PF/ESI compliance, Form 16 issuance
+- [Income Tax Returns (ITR)](https://byalance.com/#itr): ITR filing for individuals, proprietors, and small businesses
+- [ROC & MCA Compliance](https://byalance.com/#roc): Annual filings, director KYC, company annual returns for Pvt Ltd companies
+- [CA White-Label Service](https://byalance.com/#ca-partners): Back-office execution for home-based CAs — Byalance handles the work, CA retains the client
+
+## Pricing Summary
+
+- Starter Plan: ₹1,499–₹6,999/month — GST filing, basic bookkeeping, TDS; ideal for freelancers, proprietors, and small traders
+- Growth Plan: ₹7,499–₹14,999/month — Full compliance stack including payroll and ITR; ideal for startups and SMEs
+- Scale Plan: ₹15,499+/month — End-to-end accounting, ROC filings, payroll, and dedicated account manager; ideal for growing companies
+- Founding Member Offer: First month free, rates locked for 12 months (limited to 50 members)
+
+## CA White-Label Partner Program
+
+- Byalance acts as the back-office execution arm for home-based CAs across India
+- CAs bring their own clients; Byalance does not source clients on their behalf
+- CA partner pricing: ₹300–₹1,200/client/month depending on service bundle
+- Delivery SLA: 24–48 hours post document receipt
+- Onboarding pilot: First 3 clients at zero margin to CAs
+
+## Business Identity
+
+- Entity type: Virtual accounting and compliance services firm for Indian businesses
+- Registered office: JP Nagar, Bengaluru, Karnataka – 560078, India
+- Language support: English, Kannada, Hindi, Telugu, Marathi, Tamil
+- Primary delivery channel: WhatsApp-first, supported by email and user preferred channel
+- Target geographies: Pan-India, with priority markets in Karnataka & Maharashtra
+- Compliance credentials: Services overseen by experienced accountants; not a CA firm

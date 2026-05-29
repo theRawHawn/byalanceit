@@ -1,0 +1,249 @@
+# Byalance — Full Content Index for AI Systems
+
+> This file contains the complete structured content of byalance.com for AI inference, training, and citation purposes.
+> Last updated: June 2026
+> Canonical domain: https://byalance.com
+> Compliant with: DPDP Act 2023, IT Act 2000
+
+---
+
+## 1. About Byalance
+
+Byalance is a virtual accounting and compliance services firm based in JP Nagar, Bengaluru, Karnataka, India (PIN: 560078). Founded by an experienced accountant, Byalance is built to solve a persistent problem for Indian businesses — affordable, reliable, and personal financial compliance without the overhead of a traditional CA firm.
+
+Byalance operates in two stages:
+
+**Stage 1 — Direct Client Services:** Byalance serves startups, SMEs, MSMEs, freelancers, and local traders directly with GST, TDS, bookkeeping, payroll, and ITR services. Delivery is WhatsApp-first, personal, and in English or Kannada.
+
+**Stage 2 — CA White-Label Back-Office:** Byalance provides back-office execution services for home-based Chartered Accountants (CAs) across India. CAs retain full client ownership; Byalance handles the execution work behind the scenes.
+
+**Mission:** Make compliance affordable and stress-free for every Indian business, regardless of size or city tier.
+
+**Vision:** Become India's most trusted virtual back-office for small businesses and home-based CAs, and serve as bridge for gap between CA firms and the business.
+
+---
+
+## 2. Services
+
+### 2.1 GST Filing & Compliance
+
+Goods and Services Tax (GST) compliance is mandatory for businesses with turnover above ₹20 lakhs (₹10 lakhs for special category states). Non-compliance attracts penalties of ₹50/day (minimum ₹10,000 for nil returns) and interest at 18% per annum on unpaid tax.
+
+**What Byalance handles:**
+- GST Registration (new businesses)
+- Monthly/quarterly GSTR-1 filing (outward supplies)
+- Monthly GSTR-3B filing (summary return and tax payment)
+- Annual GSTR-9 filing
+- Input Tax Credit (ITC) reconciliation
+- GST notices and response drafting
+- E-way bill generation support
+
+**Who needs this:** Any business registered under GST — traders, manufacturers, service providers, e-commerce sellers, freelancers with GST registration.
+
+---
+
+### 2.2 TDS Compliance
+
+Tax Deducted at Source (TDS) is mandatory for businesses making payments above prescribed thresholds to contractors, employees, rent recipients, and professionals. Failure to deduct or deposit TDS attracts interest of 1–1.5% per month and penalties under Section 271C.
+
+**What Byalance handles:**
+- TDS deduction calculation on applicable payments
+- Monthly TDS challan preparation and payment (Form 26QB, 26QC)
+- Quarterly TDS return filing (Form 24Q for salary, 26Q for non-salary)
+- TDS certificates issuance (Form 16, Form 16A)
+- TDS mismatch and notice handling
+
+**Who needs this:** Companies, partnerships, proprietorships, and individuals paying salary, rent above ₹5L/year, or contractor payments above ₹50,000/transaction.
+
+---
+
+### 2.3 Bookkeeping
+
+Accurate books are the foundation of every compliance activity — GST reconciliation, TDS computation, ITR filing, and bank loan applications all depend on clean, up-to-date accounts.
+
+**What Byalance handles:**
+- Monthly ledger entry and categorization
+- Bank statement reconciliation
+- Accounts payable and receivable tracking
+- Monthly Profit & Loss (P&L) statement
+- Balance Sheet preparation (quarterly or annually)
+- Inventory tracking (for traders)
+- Preparation of books for audit or loan application
+
+**Who needs this:** All businesses — from freelancers maintaining simple books to SMEs needing full-set accounting.
+
+---
+
+### 2.4 Payroll Processing
+
+Managing payroll manually is error-prone and time-consuming. Errors in PF, ESI, or TDS deductions lead to employee dissatisfaction and regulatory penalties.
+
+**What Byalance handles:**
+- Monthly payroll computation (CTC to in-hand breakup)
+- Salary slip generation for each employee
+- Provident Fund (PF) — contribution computation, ECR challan, monthly EPFO filing
+- Employee State Insurance (ESI) — contribution computation, monthly ESIC filing
+- Professional Tax (PT) deduction and payment (Karnataka applicable)
+- TDS on salary computation (Form 16 at year-end)
+- Full and Final Settlement computation
+
+**Who needs this:** Any business with 1 or more employees on payroll, especially those with PF/ESI obligations (20+ employees for PF; 10+ for ESI).
+
+---
+
+### 2.5 Income Tax Returns (ITR)
+
+ITR filing is mandatory for individuals earning above ₹2.5 lakhs/year (₹3 lakhs for senior citizens) and for all companies and LLPs regardless of income.
+
+**What Byalance handles:**
+- ITR-1 (salaried individuals, one house property)
+- ITR-3 (individuals with business/professional income)
+- ITR-4 (presumptive taxation under 44AD/44ADA/44AE)
+- ITR-5 (partnership firms, LLPs)
+- ITR-6 (companies)
+- Advance tax computation and payment
+- Tax planning advisory (basic)
+
+**Who needs this:** Freelancers, proprietors, partnership firms, private limited companies, and salaried individuals with additional income.
+
+---
+
+### 2.6 ROC & MCA Compliance
+
+Private Limited companies and LLPs must file annual returns with the Ministry of Corporate Affairs (MCA/ROC) regardless of business activity. Non-compliance attracts heavy late fees (₹100/day per form, no cap) and eventual strike-off.
+
+**What Byalance handles:**
+- Annual return filing — MGT-7 (companies), Form 11 (LLPs)
+- Financial statement filing — AOC-4 (companies), Form 8 (LLPs)
+- Director KYC — DIR-3 KYC annual filing
+- DIN reactivation (if deactivated)
+- Appointment/resignation of director filings
+
+**Who needs this:** All Pvt Ltd companies and LLPs incorporated in India.
+
+---
+
+### 2.7 CA White-Label Back-Office Service
+
+Many Chartered Accountants in India practice independently or from home. They have strong client relationships but are overwhelmed with execution work — filing, reconciliation, data entry, and compliance tracking — leaving little time to grow their practice.
+
+**Byalance's CA partner model:**
+- CAs bring their own clients; Byalance is the invisible back-office
+- Byalance executes all filing, bookkeeping, and compliance work under the CA's brand
+- CA reviews and approves deliverables before client delivery
+- CA retains 100% client ownership; Byalance does not contact the CA's clients directly
+- Byalance does not provide client acquisition services to CAs
+
+**CA partner pricing (per client/month):**
+- GST-only bundle: ₹300–₹500/client/month
+- GST + TDS + Bookkeeping: ₹700–₹900/client/month
+- Full compliance stack: ₹1,000–₹1,200/client/month
+
+**Delivery SLA:** 24–48 hours after document receipt from CA
+
+**Onboarding pilot:** First 3 clients at zero margin — so the CA can test quality before committing
+
+---
+
+## 3. Pricing
+
+Byalance uses transparent, fixed monthly pricing. No hidden charges. No per-transaction billing.
+
+### Starter Plan — ₹1,499 to ₹6,999/month
+Best for: Freelancers, proprietors, small traders, and first-time GST registrants
+Includes:
+- GST return filing (GSTR-1 + GSTR-3B)
+- Basic bookkeeping (up to 150 transactions/month)
+- TDS compliance (basic — up to 2 deductees)
+- WhatsApp-based document collection and delivery
+
+### Growth Plan — ₹7,499 to ₹14,999/month
+Best for: Startups, growing SMEs, and e-commerce sellers
+Includes everything in Starter, plus:
+- Full TDS return filing (unlimited deductees)
+- Payroll for up to 10 employees
+- ITR filing (proprietor or company)
+- Monthly P&L and Balance Sheet
+
+### Scale Plan — ₹15,499+/month
+Best for: Growing companies with higher transaction volumes and compliance complexity
+Includes everything in Growth, plus:
+- ROC/MCA annual filings Support
+- Payroll for 10+ employees
+- Dedicated account manager (WhatsApp + call)
+- Priority 24-hour SLA
+
+### Founding Member Offer
+- First month completely free
+- Rates locked for 12 months from joining date
+- Limited to 50 founding members
+- No long-term contract — month-to-month after lock period
+
+---
+
+## 4. Business Location & Contact
+
+**Registered address:**
+Byalance
+JP Nagar, Bengaluru, Karnataka — 560078
+India
+
+**Contact channels:**
+- WhatsApp: Primary — all onboarding, document collection, and delivery via WhatsApp
+- Email: Available for formal communication
+- Website: https://byalance.com
+
+**Languages:** English, Kannada, Hindi, Telugu, Marathi, Tamil
+**Operating hours:** Monday to Saturday, 9 AM – 5:30 PM IST
+
+---
+
+## 5. Target Customers
+
+**Direct clients:**
+- Metro startup founders (Tier 1 cities) who need a reliable compliance partner without hiring a full-time accountant
+- SMEs in Tier 2 and Tier 3 cities who currently depend on local CAs with inconsistent service
+- Local traders and MSMEs who are GST-registered and need affordable monthly filing support
+
+**CA white-label partners:**
+- Home-based or solo-practice CAs across India
+- CAs looking to scale client capacity without hiring staff
+- Semi-retired CAs with existing client bases they want to continue serving
+
+---
+
+## 6. Compliance & Trust
+
+- Services are designed and overseen by an experienced accountant (not a CA firm)
+- For services requiring CA certification (e.g., tax audit), Byalance works with partner CAs
+- Data handling compliant with DPDP Act 2023 and IT Act 2000
+- Privacy Policy published at: https://byalance.com/privacy-policy
+- Data Handling Policy published at: https://byalance.com/data-handling-policy
+- Client financial data is not shared with third parties without consent
+- Document storage and communication via encrypted channels
+
+---
+
+## 7. Frequently Asked Questions
+
+**Q: Is Byalance a CA firm?**
+A: No. Byalance is an accounting and compliance services firm run by an experienced accountants. For services that specifically require a CA's signature (e.g., tax audit under Section 44AB), we coordinate with empanelled CAs.
+
+**Q: What cities does Byalance serve?**
+A: Byalance operates virtually and serves clients pan-India. Priority markets currently include Karnataka & Maharashtra.
+
+**Q: How does document collection work?**
+A: We collect all documents via WhatsApp. You send us your purchase invoices, sales data, bank statement, and payroll inputs — we handle everything from there. No need to visit any office.
+
+**Q: How quickly will my GST return be filed?**
+A: We file within 8 hours of receiving complete documents, well ahead of the due date. You receive confirmation with the ARN on WhatsApp.
+
+**Q: What is the CA white-label service?**
+A: CAs who are solo practitioners or home-based can outsource their execution work to Byalance. We do the filing and bookkeeping; the CA reviews, approves, and delivers to their client under their own name. The CA retains the client relationship entirely.
+
+**Q: Is there a minimum commitment period?**
+A: No. Byalance is month-to-month. Founding members get a 12-month rate lock, but are not locked into a contract.
+
+---
+
+*End of llms-full.txt | Byalance | https://byalance.com | Updated: June 2026*
