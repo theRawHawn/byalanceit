@@ -329,7 +329,7 @@ export default function Contact() {
                   <p className="font-bold uppercase tracking-wider">Submission Failed</p>
                   <p className="opacity-90 leading-relaxed font-medium break-all">{errorDetail}</p>
                   <p className="text-[10px] text-slate-500 font-normal mt-2 leading-relaxed">
-                    Check your Cloudflare variables (GOOGLE_SHEET_ID, GOOGLE_CLIENT_EMAIL, GOOGLE_PRIVATE_KEY) and make sure the Service Account email is added as an "Editor" on your Google Sheet.
+                    Please try again after sometime.
                   </p>
                 </div>
               )}
