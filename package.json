@@ -9,9 +9,9 @@
   "scripts": {
     "dev": "vite --port 3000 --host 0.0.0.0",
     "vike-dev": "vike dev --port 3000 --host 0.0.0.0",
-    "build": "node scripts/build.js",
+    "build": "vike build && node scripts/post-build.js",
     "preview": "wrangler pages dev dist/client",
-    "deploy": "node scripts/build.js && wrangler pages deploy dist/client",
+    "deploy": "vike build && node scripts/post-build.js && wrangler pages deploy dist/client",
     "clean": "rm -rf dist",
     "lh": "vite --port=3000 --host=0.0.0.0",
     "lint": "tsc --noEmit"
