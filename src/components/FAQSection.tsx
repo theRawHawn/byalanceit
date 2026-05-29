@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Helmet } from 'react-helmet-async';
+import { Head } from 'vike-react/Head';
 
 interface FAQItem {
   question: string;
@@ -97,11 +97,11 @@ export default function FAQSection({ faqs, title = 'Have Questions? We Have Answ
 
   return (
     <div style={css.section} itemScope itemType="https://schema.org/FAQPage">
-      <Helmet>
+      <Head>
         <script type="application/ld+json">
           {JSON.stringify(jsonLd)}
         </script>
-      </Helmet>
+      </Head>
 
       {title && <h2 style={css.title}>{title}</h2>}
 

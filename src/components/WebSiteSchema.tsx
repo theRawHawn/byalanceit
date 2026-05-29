@@ -1,5 +1,5 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
+import { Head } from 'vike-react/Head';
 
 interface WebSiteSchemaProps {
   name?: string;
@@ -26,10 +26,10 @@ export default function WebSiteSchema({
   };
 
   return (
-    <Helmet>
+    <Head>
       <script type="application/ld+json">
         {JSON.stringify(jsonLd)}
       </script>
-    </Helmet>
+    </Head>
   );
 }

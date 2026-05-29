@@ -1,5 +1,5 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
+import { Head } from 'vike-react/Head';
 
 interface BreadcrumbItem {
   name: string;
@@ -23,10 +23,10 @@ export default function BreadcrumbSchema({ items }: BreadcrumbSchemaProps) {
   };
 
   return (
-    <Helmet>
+    <Head>
       <script type="application/ld+json">
         {JSON.stringify(jsonLd)}
       </script>
-    </Helmet>
+    </Head>
   );
 }

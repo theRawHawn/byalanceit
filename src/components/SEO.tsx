@@ -1,5 +1,5 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
+import { Head } from 'vike-react/Head';
 
 interface SEOProps {
   title: string;
@@ -22,10 +22,8 @@ export default function SEO({
   twitterCard = 'summary_large_image',
   noindex = false,
 }: SEOProps) {
-  const currentUrl = canonical || (typeof window !== 'undefined' ? window.location.href : '');
-
   return (
-    <Helmet>
+    <Head>
       {/* Favicon */}
       <link rel="icon" type="image/svg+xml" href="/favicon_logo.svg" />
 
@@ -34,7 +32,7 @@ export default function SEO({
       <meta name="description" content={description} />
       {keywords && <meta name="keywords" content={keywords} />}
 
-      {/* Robots Tag for indexing/noindexing */}
+      {/* Robots Tag */}
       {noindex ? (
         <meta name="robots" content="noindex, nofollow" />
       ) : (
@@ -42,13 +40,13 @@ export default function SEO({
       )}
 
       {/* Canonical Link */}
-      {currentUrl && <link rel="canonical" href={currentUrl} />}
+      {canonical && <link rel="canonical" href={canonical} />}
 
       {/* Open Graph Tags */}
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
       <meta property="og:type" content={ogType} />
-      {currentUrl && <meta property="og:url" content={currentUrl} />}
+      {canonical && <meta property="og:url" content={canonical} />}
       {ogImage && <meta property="og:image" content={ogImage} />}
       <meta property="og:site_name" content="Byalance" />
 
@@ -58,15 +56,14 @@ export default function SEO({
       <meta name="twitter:description" content={description} />
       {ogImage && <meta name="twitter:image" content={ogImage} />}
 
-      {/* Search Engine Verification Tags (Placeholders) */}
+      {/* Search Engine Verification Tags */}
       <meta name="google-site-verification" content="GOOGLE_VERIFICATION_TOKEN_PLACEHOLDER" />
       <meta name="msvalidate.01" content="BING_VERIFICATION_TOKEN_PLACEHOLDER" />
 
-      {/* 
+      {/*
         ========================================================================
         GEO-TARGETING (GEO SEO) Directives:
-        Helps search engines understand physical location relevance (local search query booster).
-        Matched with the registered office at JP Nagar, Bengaluru, Karnataka - 560078.
+        Matched with registered office at JP Nagar, Bengaluru, Karnataka - 560078.
         ========================================================================
       */}
       <meta name="geo.region" content="IN-KA" />
@@ -78,17 +75,13 @@ export default function SEO({
       {/*
         ========================================================================
         AEO (Answer Engine Optimization) & GEO (Generative Engine Optimization):
-        Byalance handles AI crawler discovery through:
-        1. /public/robots.txt - Whitelists GPTBot, ClaudeBot, PerplexityBot, xai-bot, GoogleOther.
-        2. /public/llms.txt - Structured high-level summary for prompt context (this file!).
-        3. /public/llm-full.txt - Exhaustive business profile index with complete pricing, FAQs, & SLAs.
-        4. JSON-LD schema markup configured in:
-           - /src/components/OrganizationSchema.tsx (Business identity, address, logo, WhatsApp)
-           - /src/components/WebSiteSchema.tsx (Site entry links)
-           - /src/components/FAQSchema.tsx (Pre-structured question/answers for AI crawlers)
+        1. /public/robots.txt - Whitelists GPTBot, ClaudeBot, PerplexityBot, xai-bot.
+        2. /public/llms.txt - Structured high-level summary for AI context windows.
+        3. /public/llm-full.txt - Exhaustive business profile for deep research agents.
+        4. JSON-LD schemas in OrganizationSchema.tsx, WebSiteSchema.tsx, FAQSchema.tsx.
         ========================================================================
       */}
-    </Helmet>
+    </Head>
   );
 }
 
@@ -97,8 +90,7 @@ export default function SEO({
   SEO / AEO / GEO CONFIGURATION DIRECTORY MAP:
   ========================================================================
   Want to update keywords/descriptions?
-  - Homepage & Main Landing fallback: Set props inside /src/App.tsx under `<SEO .../>`
-  - Homepage page config: Set props inside /pages/index/+Page.tsx under `<SEO .../>`
+  - Homepage: /pages/index/+Page.tsx
   - Individual Service Pages:
     * Accounting & Bookkeeping: /src/components/services/Accounting.tsx
     * GST Services: /src/components/services/GST.tsx
@@ -108,18 +100,16 @@ export default function SEO({
     * Legal policies: /src/pages/PrivacyPolicy.tsx & /src/pages/DataHandling.tsx
 
   Want to update AI/LLM Context indexing?
-  - Modify `/public/llms.txt` for context windows (summaries, pricing structures, direct links).
-  - Modify `/public/llm-full.txt` for deeper details (exhaustive service rules, SLAs, extensive FAQs consumed by Perplexity, Gemini, etc.).
-  - Modify `/public/robots.txt` to enable/disable bots of specific generative platforms (GPTBot, ClaudeBot, etc.).
-*/
+  - /public/llms.txt - context windows (summaries, pricing, direct links)
+  - /public/llm-full.txt - deeper details (SLAs, FAQs for Perplexity/Gemini)
+  - /public/robots.txt - enable/disable specific AI bots (GPTBot, ClaudeBot, etc.)
 
-/*
   =========================================
   POST-DEPLOYMENT CHECKLIST (MANUAL STEPS):
   =========================================
-  1. Submit sitemap URL: https://[YOUR_DOMAIN]/sitemap.xml to Google Search Console (GSC) and Bing Webmaster Tools.
-  2. Request manual URL indexing on GSC for the root homepage and primary landing pages to trigger rapid crawler discovery.
-  3. Set target country targeting explicitly to "India" in GSC (via legacy International Targeting if active, or via search market optimization).
-  4. Perform the Google Rich Results Test (https://search.google.com/test/rich-results) for both the Organization, Homepage, and FAQ markup on the live URL.
-  5. Run an IndexNow manual ping (or click the post-build automated endpoints) to synchronize state instantly on Bing / Yandex.
+  1. Submit sitemap URL to Google Search Console and Bing Webmaster Tools.
+  2. Request manual URL indexing on GSC for homepage and primary landing pages.
+  3. Set target country to "India" in GSC.
+  4. Run Google Rich Results Test for Organization, Homepage, and FAQ markup.
+  5. Ping IndexNow to sync Bing/Yandex instantly.
 */
