@@ -8,14 +8,11 @@ import { ViteImageOptimizer } from 'vite-plugin-image-optimizer';
 
 export default defineConfig((env) => {
   const isBuild = env.command === 'build';
-  const isSSR = !!((env as any).ssrBuild || (env as any).isSsrBuild);
   return {
     plugins: [
       react(),
       tailwindcss(),
-      vike({
-        prerender: true,
-      }),
+      vike(),
       {
         name: 'api-contact-middleware',
         configureServer(server) {
@@ -88,28 +85,6 @@ export default defineConfig((env) => {
     resolve: {
       alias: {
         '@': path.resolve(process.cwd(), '.'),
-      },
-    },
-    build: {
-      rollupOptions: {
-        output: {
-          manualChunks: isSSR ? undefined : (id) => {
-            if (id.includes('node_modules')) {
-              if (
-                id.includes('react') ||
-                id.includes('react-dom') ||
-                id.includes('react-router') ||
-                id.includes('react-helmet-async')
-              ) {
-                return 'vendor-core';
-              }
-              if (id.includes('motion') || id.includes('lucide-react')) {
-                return 'vendor-ui';
-              }
-              return 'vendor-libs';
-            }
-          },
-        },
       },
     },
     server: {
