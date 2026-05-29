@@ -10,8 +10,8 @@
     "dev": "vite --port 3000 --host 0.0.0.0",
     "vike-dev": "vike dev --port 3000 --host 0.0.0.0",
     "build": "vike build",
-    "preview": "wrangler pages dev dist",
-    "deploy": "vike build && wrangler pages deploy dist",
+    "preview": "wrangler pages dev dist/client",
+    "deploy": "vike build && wrangler pages deploy dist/client",
     "clean": "rm -rf dist",
     "lh": "vite --port=3000 --host=0.0.0.0",
     "lint": "tsc --noEmit"
