@@ -49,7 +49,7 @@ export default function PrivacyPolicyPage() {
             </ul>
             <h3 className="text-xl font-semibold text-blue-600 mt-6 mb-3">2.2 Information We Collect Automatically</h3>
             <ul className="list-disc list-inside text-gray-700">
-              <li>Browser type, device type, IP address, and pages visited on our website (byalance.vercel.app)</li>
+              <li>Browser type, device type, IP address, and pages visited on our website (byalance.com)</li>
               <li>Cookies and session data for website analytics (no advertising cookies are used)</li>
             </ul>
             <h3 className="text-xl font-semibold text-blue-600 mt-6 mb-3">2.3 Information from Third Parties</h3>

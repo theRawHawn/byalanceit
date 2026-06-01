@@ -25,6 +25,6 @@ User-agent: *
 Allow: /
 
 # AI and Sitemap file declarations
-Sitemap: https://byalance.vercel.app/sitemap.xml
-LLMs: https://byalance.vercel.app/llms.txt
-LLMs-Full: https://byalance.vercel.app/llms-full.txt
+Sitemap: https://byalance.com/sitemap.xml
+LLMs: https://byalance.com/llms.txt
+LLMs-Full: https://byalance.com/llms-full.txt
