@@ -16,9 +16,9 @@ export default function Page() {
   return (
     <>
       <SEO
-        title="Byalance — Virtual Accounting, GST, TDS & Payroll Services India"
-        description="Byalance is India's affordable virtual accounting firm for startups and MSMEs. Expert GST filing, TDS compliance, ITR filing, payroll processing & bookkeeping. Starting ₹1,999/month. Based in Bengaluru."
-        keywords="virtual accounting firm India, GST filing services, TDS compliance India, ITR filing India, payroll processing, bookkeeping services Bengaluru, accounting for startups India, MSME accounting services, affordable CA services India, GST TDS payroll Bengaluru"
+        title="Byalance - Accounting, GST, TDS & Payroll Services India"
+        description="Byalance is India's affordable remote accounting firm for startups and MSMEs. Expert GST filing, TDS compliance, ITR filing, payroll processing & bookkeeping. Starting ₹1,999/month. Based in Bengaluru."
+        keywords="virtual accounting firm India, GST filing services, TDS return filing services, ITR filing India, payroll processing, bookkeeping services Bengaluru, accounting for startups India, MSME accounting services, affordable CA services India, GST TDS payroll Bengaluru"
         canonical="https://byalance.com/"
         ogType="website"
       />
