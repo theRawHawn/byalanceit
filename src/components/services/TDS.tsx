@@ -2,6 +2,8 @@ import SEO from '../SEO';
 import React from 'react';
 import { Receipt, Check, ArrowRight } from "lucide-react";
 import { useLanguage, translations } from "../../context/LanguageContext";
+import FAQSchema from '../FAQSchema';
+import { tdsFAQs } from '../../data/faqData';
 
 function TdsIllustration() {
   return (
@@ -55,9 +57,9 @@ const TDS = () => {
   return (
     <>
       <SEO
-        title="TDS Services | Byalance"
-        description="Complete TDS lifecycle management — from deduction to quarterly filings and certificate generation."
-        keywords="TDS services, TDS filing, Form 24Q, Form 26Q, Form 16, TAN registration, TDS India"
+        title="TDS Filing & Compliance Services India | Form 24Q 26Q | Byalance"
+        description="Expert TDS compliance services for Indian businesses — TAN registration, Form 24Q/26Q filing, Form 16/16A generation, and default resolution. Never miss a TDS deadline with Byalance."
+        keywords="TDS services India, TDS filing Bengaluru, Form 24Q 26Q filing, TAN registration, Form 16 Form 16A, TDS default resolution, TRACES TDS, TDS on rent, TDS on contractor payment, TDS compliance India"
         canonical="https://byalance.com/services/tds-services"
         ogType="article"
       />
@@ -147,6 +149,9 @@ const TDS = () => {
               </ul>
             </div>
           </div>
+        </div>
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
+          <FAQSchema faqs={tdsFAQs} title="TDS Services — Frequently Asked Questions" />
         </div>
       </div>
     </>

@@ -2,6 +2,8 @@ import SEO from '../SEO';
 import React from 'react';
 import { FileText, Check, ArrowRight } from "lucide-react";
 import { useLanguage, translations } from "../../context/LanguageContext";
+import FAQSchema from '../FAQSchema';
+import { gstFAQs } from '../../data/faqData';
 
 function GstIllustration() {
   return (
@@ -42,9 +44,9 @@ const GST = () => {
   return (
     <>
       <SEO
-        title="GST Services | Byalance"
-        description="Stay fully compliant with GST regulations. From registration to monthly/annual filings and reconciliation."
-        keywords="GST services, GST filing, GSTR-1, GSTR-3B, GST registration, input tax credit, GST India"
+        title="GST Services in India | GST Filing & Compliance | Byalance"
+        description="Complete GST compliance for Indian businesses — registration, GSTR-1, GSTR-3B, GSTR-9 filing, ITC reconciliation, e-invoicing, and notice resolution. Expert GST services in Bengaluru and across India."
+        keywords="GST services India, GST filing Bengaluru, GSTR-1 GSTR-3B filing, GST registration India, input tax credit reconciliation, e-invoicing setup, GST annual return GSTR-9, GST notice response, GST compliance Karnataka, virtual GST consultant India"
         canonical="https://byalance.com/services/gst-services"
         ogType="article"
       />
@@ -134,6 +136,9 @@ const GST = () => {
               </ul>
             </div>
           </div>
+        </div>
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
+          <FAQSchema faqs={gstFAQs} title="GST Services — Frequently Asked Questions" />
         </div>
       </div>
     </>

@@ -9,14 +9,16 @@ import Pricing from '../../src/components/Pricing';
 import Contact from '../../src/components/Contact';
 import OrganizationSchema from '../../src/components/OrganizationSchema';
 import WebSiteSchema from '../../src/components/WebSiteSchema';
+import FAQSchema from '../../src/components/FAQSchema';
+import { homeFAQs } from '../../src/data/faqData';
 
 export default function Page() {
   return (
     <>
       <SEO
-        title="Byalance: Accounting, GST, TDS & Payroll Services"
-        description="Byalance provides comprehensive accounting, GST, TDS, and payroll services for businesses of all sizes. Simplify your finances and stay compliant with our expert team."
-        keywords="accounting services, gst services, tds services, payroll processing, chartered accountant firm, financial services, business compliance"
+        title="Byalance — Virtual Accounting, GST, TDS & Payroll Services India"
+        description="Byalance is India's affordable virtual accounting firm for startups and MSMEs. Expert GST filing, TDS compliance, ITR filing, payroll processing & bookkeeping. Starting ₹1,999/month. Based in Bengaluru."
+        keywords="virtual accounting firm India, GST filing services, TDS compliance India, ITR filing India, payroll processing, bookkeeping services Bengaluru, accounting for startups India, MSME accounting services, affordable CA services India, GST TDS payroll Bengaluru"
         canonical="https://byalance.com/"
         ogType="website"
       />
@@ -33,6 +35,7 @@ export default function Page() {
         <Services />
         <Pricing />
         <Contact />
+        <FAQSchema faqs={homeFAQs} title="Frequently Asked Questions About Byalance" />
       </motion.div>
     </>
   );

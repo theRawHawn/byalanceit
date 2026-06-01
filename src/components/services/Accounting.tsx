@@ -2,6 +2,8 @@ import SEO from '../SEO';
 import React from 'react';
 import { Calculator, Check, ArrowRight } from "lucide-react";
 import { useLanguage, translations } from "../../context/LanguageContext";
+import FAQSchema from '../FAQSchema';
+import { accountingFAQs } from '../../data/faqData';
 import { motion } from 'motion/react';
 
 function AccountingIllustration() {
@@ -40,7 +42,7 @@ const Accounting = () => {
       <SEO
         title={`${data.title} | Byalance`}
         description={data.desc}
-        keywords="accounting, bookkeeping, financial services, small business accounting, chartered accountant, virtual accounting India"
+        keywords="accounting services India, bookkeeping services Bengaluru, virtual accounting firm, small business accounting India, Tally bookkeeping, Zoho Books accountant, bank reconciliation, P&L statement India, balance sheet preparation, accounting for startups India"
         canonical="https://byalance.com/services/accounting-bookkeeping"
         ogType="article"
       />
@@ -202,6 +204,9 @@ const Accounting = () => {
             </div>
 
           </div>
+        </div>
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
+          <FAQSchema faqs={accountingFAQs} title="Accounting & Bookkeeping — Frequently Asked Questions" />
         </div>
       </div>
     </>

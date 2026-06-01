@@ -2,6 +2,8 @@ import SEO from '../SEO';
 import React from 'react';
 import { FileText, Check, ArrowRight } from "lucide-react";
 import { useLanguage, translations } from "../../context/LanguageContext";
+import FAQSchema from '../FAQSchema';
+import { itrFAQs } from '../../data/faqData';
 
 function ItrIllustration() {
   return (
@@ -47,9 +49,9 @@ const ITR = () => {
   return (
     <>
       <SEO
-        title="ITR Services | Byalance"
-        description="Expert ITR filing services for individuals and businesses. Accurate, on-time income tax return filing."
-        keywords="ITR filing, income tax return, ITR services, tax filing India, Form 16, AIS, TIS, Tax Return Online"
+        title="ITR Filing Services in India | Income Tax Return | Byalance"
+        description="File your Income Tax Return accurately and on time with Byalance. Expert ITR filing for salaried individuals, freelancers, businesses, and companies across India. Starting ₹999."
+        keywords="ITR filing India, income tax return filing, ITR services Bengaluru, file ITR online, ITR for salaried, ITR for freelancers, Form 26AS, income tax notice response, Section 80C deductions, old vs new tax regime"
         canonical="https://byalance.com/services/itr-services"
         ogType="article"
       />
@@ -139,6 +141,9 @@ const ITR = () => {
               </ul>
             </div>
           </div>
+        </div>
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
+          <FAQSchema faqs={itrFAQs} title="ITR Filing — Frequently Asked Questions" />
         </div>
       </div>
     </>

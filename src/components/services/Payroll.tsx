@@ -2,6 +2,8 @@ import SEO from '../SEO';
 import React from 'react';
 import { Users, Check, ArrowRight } from "lucide-react";
 import { useLanguage, translations } from "../../context/LanguageContext";
+import FAQSchema from '../FAQSchema';
+import { payrollFAQs } from '../../data/faqData';
 
 function PayrollIllustration() {
   return (
@@ -44,9 +46,9 @@ const Payroll = () => {
   return (
     <>
       <SEO
-        title="Payroll Processing Services | Byalance"
-        description="Complete payroll management with accurate calculations and statutory compliance — PF, ESI, PT, TDS and more."
-        keywords="payroll processing, payroll services, PF ESI filing, salary processing, payroll compliance India, employee payroll"
+        title="Payroll Processing Services India | PF ESI PT Compliance | Byalance"
+        description="Outsource your payroll to Byalance — accurate salary processing, PF/ESI/PT return filing, Form 16 generation, and full statutory compliance for businesses across India. Starting ₹7,499/month."
+        keywords="payroll processing India, payroll services Bengaluru, PF ESI filing, professional tax Karnataka, salary processing outsourcing, payroll compliance MSME, EPF return filing, ESI return filing, Form 16 generation, payroll for startups India"
         canonical="https://byalance.com/services/payroll-processing"
         ogType="article"
       />
@@ -136,6 +138,9 @@ const Payroll = () => {
               </ul>
             </div>
           </div>
+        </div>
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
+          <FAQSchema faqs={payrollFAQs} title="Payroll Processing — Frequently Asked Questions" />
         </div>
       </div>
     </>
