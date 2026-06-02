@@ -32,7 +32,7 @@ export const translations = {
     about: {
       badge: 'Corporate Excellence',
       title: 'The Byalance Standard',
-      p1: 'Byalance is a affordable modern virtual accounting firm purpose-built for the entrepreneurs, traders, and founders driving India\'s next wave of growth. from metro startup hubs to the rising commercial corridors of Tier 2 and Tier 3 cities.',
+      p1: 'Byalance is a affordable modern remote accounting firm purpose-built for the entrepreneurs, traders, and founders driving India\'s next wave of growth. from metro startup hubs to the rising commercial corridors of Tier 2 and Tier 3 cities.',
       p2: 'We bridge the gap between traditional accounting and modern business speed, providing rigorous compliance oversight without the legacy overhead. bookkeeping, GST, TDS, and payroll, done right, without the big-firm price tag.',
       missionBadge: 'Our Mission',
       missionTitle: 'Bridging Growth & Compliance',
@@ -235,7 +235,7 @@ export const translations = {
       send: 'Send Message',
     },
     footer: {
-      about: 'A premier virtual accounting firm dedicated to serving the needs of high-growth startups and MSMEs across India.',
+      about: 'A premier remote accounting firm dedicated to serving the needs of high-growth startups and MSMEs across India.',
       resources: 'Resources',
       expertise: 'Key Expertise',
       headquarters: 'Headquarters',
